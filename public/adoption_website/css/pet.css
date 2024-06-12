@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0 auto; /* Centers the h1 element horizontally */
+}
+
+.container {
+    display: flex;
+}
+
+.side-menu {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: 500px;
+    
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.side-menu ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 80%;
+}
+
+button{
+    font-size: 18px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #333; /* Distinct background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding for content */
+    text-align: center; /* Center align content */
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+}
+
+#clock-container{
+    text-align: right;
+}
+
+#clock{
+    font-family:monospace;
+    
+}
+
+.pet-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .pet-info {
+    display: flex;
+    align-items: center;
+  }
+  .pet-info img {
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  .interested-btn {
+    background-color:palevioletred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
